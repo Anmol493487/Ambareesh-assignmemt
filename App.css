@@ -1,0 +1,96 @@
+
+header{
+    background-color:rgb(255,255,255);
+
+}
+
+.adjust-width{
+    max-width:1450px;
+    margin:20px auto;
+}
+
+.display-nav{
+    position:relative;
+    list-style:none;
+}
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.dropdown-menu{
+    padding:5px;
+    background-color: rgb(255,255,255);
+    color:black;
+    font-size:100%;
+}
+.container-shadow{
+    border:solid rgb(224,224,224) 2px;
+    box-shadow:0px 0px 2px rgb(224,224,224);
+}
+
+.display-nav button{
+    border-radius:4px;
+    gap:5px;
+}
+
+.dropdown{
+    background-color:rgb(252,252,252);
+    color:	rgb(128,128,128);
+    opacity:0;
+    width:25%;
+    padding:15px;
+    position:absolute;
+    left:0;
+    top:calc(100% + 0.5rem);
+}
+
+
+.dropdown select{
+    width:45%;
+    border-radius: 4px;
+    gap:10px;
+}
+
+/* Main-Section*/
+.display-main{
+    background-color: rgb(245,245,245);
+    height:100vh;
+}
+
+.display-items{
+    align-items: flex-start;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.grouped-tickets{
+    width:250px;
+    flex-grow:1;
+}
+
+.grouped-tickets ul{
+    list-style:none;
+}
+
+.group-header{
+    align-items: stretch;
+}
+
+.group-details{
+    gap:10px;
+    align-items:center;
+}
+
+/* Ticket */
+.card{
+    padding:10px;
+    background-color:white;
+}
+.card-detail{
+    justify-content: flex-start;
+    gap:3px;
+}
+
+
+
